@@ -268,3 +268,123 @@ h5
     line-height: 30px;
     margin-bottom: 30px;
 }
+
+.card .button
+{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.card .button:hover
+{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+
+.contact-me
+{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background-color: #191919;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-me p
+{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-me .button-2
+{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.contact-me .button-2:hover
+{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+
+footer
+{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p:nth-child(1)
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+footer p:nth-child(2)
+{
+    font-size: 17px;
+    color: white;
+    width: 500px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.social
+{
+    display: flex;
+}
+
+.social a
+{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9004d;
+    border-radius: 20px;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.social a:hover
+{
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+.end
+{
+    position: absolute;
+    font-size: 14px;
+    color: #f9004d;
+    bottom: 30px;
+    
+}

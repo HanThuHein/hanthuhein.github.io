@@ -22,3 +22,110 @@ a:active{
     color: green;
 }
 
+.border_width{
+    border-width: 1px;
+    border-style: solid;
+}
+
+.border_test{
+    border-width: thick;
+}
+
+.margin{
+    border: 1px solid black;
+    margin-top:100px;
+
+}
+
+.padding{
+    border: 1px solid black;
+    padding-top: 50px;
+}
+
+.inline{
+    border: 1px solid black;
+    width: 500px;
+    display: inline-block;
+}
+
+.block{
+    border: 1px solid black;
+    width: 400px;
+    display: inline-block;
+}
+
+.img{
+    width: 40%;
+    float: right;
+}
+
+.grid1 div, .grid2 div, .grid5{
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.grid1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 40px;
+}
+
+.grid5{
+    display: grid;
+
+}
+
+.relative_parent{
+    border: 1px solid black;
+    width: 800px;
+    height: 400px;
+}
+
+.relative{
+    border: 1px solid green;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+.absolute_parent{
+    border: 1px solid black;
+    width: 800px;
+    height: 400px;
+    position: absolute;
+}
+
+.absolute{
+    border: 1px solid green;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+.fixed{
+    position: fixed;
+    left: 50px;
+}
+
+.online{
+    font-family: 'Nuosu SIL', serif;
+}
+
+@font-face {
+    src: url(Kdam_Thmor_Pro/KdamThmorPro-Regular.ttf);
+    font-family: kdam;
+}
+
+.inline{
+    font-family: kdam;
+}

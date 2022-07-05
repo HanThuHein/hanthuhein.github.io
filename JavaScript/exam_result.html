@@ -38,24 +38,23 @@
 
             
 
-            if (html >= 81 && html >= 50 || css >= 81 && css >= 50 || js >= 81 && js >= 50) {
-                document.write('<h1>'+name+' is pass with Distinction</h1>')
+            if(css > 49 || html > 49 || js > 49 && css > 80 || html > 80 || js > 80 ){
+                document.write('<h1> '+name+' is pass with distinction </h1>')
+            }
+            else if(css >= 50 || html >= 50 || js >= 50 && css <= 81 || html <= 81 || js <= 81){
+                document.write('<h1> '+name+' is pass</h1>')
+            }
+
+            else{
+                document.write('<h1> '+name+' is fail<h1>')
             }
             
-        
-            else if(html >= 50 && html < 81 && css >= 50 && css < 81 && js >= 50 && js < 81){
-                document.write('<h1> '+name+' is pass </h1>')
-
-             }
-
-             else{
-                document.write('<h1> '+name+' is Fail </h1>')
-
-             }
+                
+            
 
             
            
-            
+        
         }
     </script>
 </body>
